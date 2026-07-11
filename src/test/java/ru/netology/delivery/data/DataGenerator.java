@@ -43,17 +43,14 @@ public class DataGenerator {  // 4 usages
         }
     }
 
+    @Value
     public static class UserInfo {
         String city;
         String name;
         String phone;
 
-        @Value 2 usages
-        public static class UserInfo {
-            String city;
-            String name;
-            String phone;
-        }
+
+
 
     }
 
